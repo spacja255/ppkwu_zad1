@@ -11,4 +11,4 @@ def rev(text):
     reversed_text = text[::-1]
     return reversed_text
 
-app.run("192.168.122.44", 8080)
+app.run("localhost", 8080)
